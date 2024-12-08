@@ -1,6 +1,9 @@
 import sys
 
-for line in sys.stdin:
-    ...
+def load_file(f):
+    for line in f:
+        ...
 
-print(...)
+if __name__ == "__main__":
+    result = load_file(sys.stdin)
+    print(...)
